@@ -1,0 +1,430 @@
+*{
+   margin: 0px;
+   padding: 0px;
+ }
+body{background-color: #f7b5cd;} 
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 2px solid transparent;
+   padding: 0px 20px;
+   background-color: white;}
+.navbar .logo{
+   width: 400px;
+   margin-top: 2px;} 
+.navbar .nav-meni{
+   display: inline;
+   margin: 15px;
+   padding: 5px;
+   font-size: 27px;
+   width: auto;}
+.navbar .nav-meni a{
+   color:black;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bold;
+   border-radius: 25px;
+   padding: 5px 8px;}
+.navbar .nav-meni a:hover{
+   color: #f7b5cd;
+   background-color:#cee6f9;}
+.tekst {
+   color: black;
+   font-size: 30px;
+   position: relative;
+   top: 30px;
+   text-indent:15px;
+ }
+.podnaslov{
+   padding: 20px;
+   text-decoration: underline;
+ }
+.kartica{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+.radno-mesto{
+   width: 400px;
+   height: 600px;
+   margin: 0px 20px;
+   border-radius: 20px;
+} 
+.radno-mesto img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+}
+.radno-mesto img:hover{
+   box-shadow: 3px 4px 10px rgba(99, 99, 99, 5);
+} 
+.opis p{
+   margin-left: 40%;
+   text-align: center;
+   font-weight: bold;
+   background-color: white;
+   border-radius: 20px;
+   width: 100px;
+   height: 50px;
+} 
+.opis p:hover{
+   box-shadow: 10px 5px 10px rgba(99,99,99,87);
+   color: rgb(51, 204, 51);
+ }
+.naslov2{
+   background-color: #6e0459;
+   color:white;
+   text-align:center;
+   padding: 20px;
+   border-top:3px solid #807070;
+   border-bottom: 3px solid #807070;
+}
+ 
+.buketi img{
+   width:250px;
+   height:250px;
+   display:inline;
+   margin:20px;
+   border-radius: 15px;
+}
+.buketi img:hover{
+   box-shadow: 3px 4px 10px rgba(99, 99, 99, 5);
+ }
+.dekoracija img{
+   width:320px;
+   height:320px;
+   display:inline;
+   margin:20px;
+   border-radius: 15px;
+}
+.dekoracija img:hover{
+   box-shadow: 3px 4px 10px rgba(99, 99, 99, 5);
+} 
+.bidermajer img{
+   width:250px;
+   height:250px;
+   display:inline;
+   margin:20px;
+   border-radius: 15px;
+} 
+.bidermajer img:hover{
+   box-shadow: 3px 4px 10px rgba(99, 99, 99, 5);
+}
+.pozadina3{
+   background-image: url(slike/pozadina3.2.jpg);
+   background-size: cover;
+   height: 100vh;
+} 
+#dostava h1{
+   text-align: center;
+   color: black;
+   padding-top: 50px;
+   padding-bottom: 40px;
+   font-size: 50px;
+} 
+#dostava p{
+   color: black;
+   font-size: 30px;
+   padding: 7px;
+} 
+.strumf img{
+   width: 170px;
+   height: 170px;
+   position: relative;
+   top: 160px;
+   animation-name: strumf1;
+   animation-duration: 10s ;
+   animation-iteration-count: infinite;
+} 
+ @keyframes strumf1{
+   from{
+      left: 0px;
+   }
+ 
+   to{
+      left: 78%;
+   }
+} 
+.strumfeta img{
+   width: 150px;
+   height: 155px;
+   position: relative;
+   top: 9px;
+   float: right;
+   animation-name: strumf2;
+   animation-duration: 10s ;
+   animation-iteration-count: infinite;
+}
+.kontakt-forma{
+   width: 1000px;
+   height: 600px; 
+   padding: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.f-desno{
+   width:50% ;
+   height:100% ;
+} 
+.f-desno h1{
+   text-align: center;
+} 
+.ikonica {
+   width: 300px;
+   padding: 20px;
+   padding-left: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 30px;
+}
+.polja{
+   width: 300px;
+   margin: 15px auto;
+}
+.polja input{
+   width: 250px;
+   padding: 10px;
+   border: 2px solid #c90076;
+   border-radius: 10px;
+}
+.polja textarea{
+   width: 90%;
+   height:100px;
+   border: 2px solid #c90076;
+   border-radius: 25px;
+}
+.polja p{
+   font-size: 20px;
+}
+.dugme{
+   color: black;
+   margin: auto;
+   display: block;
+   padding: 10px 15px;
+   border-radius: 25px;
+   background-color:white;
+   border: 2px solid #c90076;
+   font-size: 17px;
+   font-weight: bold;
+}
+.dugme:hover{
+   color: black;
+   background-color: #a2d5f2;
+   border: 2px solid #d29bc2;
+}
+footer{
+   width: 100%;
+   height: 200px;
+   background-color: #a40f87;
+   padding: 10px;
+}
+.ikonice-footer{
+   width: 100%;
+   text-align: center;
+   margin-top: 10px;
+   color: black;
+   font-size: 30px;
+   padding: 10px;
+}
+.tekst-footer p{
+   text-align: center;
+   font-size: 22px;
+   color: black;
+   padding: 5px;
+}
+ @media screen and (min-width:350px) and (max-width:420px) {
+   .navbar .logo{
+      display: block;
+      margin-left: 0px;
+      width: 340px;
+   }
+   .navbar{
+      display: block;
+      padding: 5px;
+      width: 100%;
+   }
+   .meni{
+      padding: 0px;
+      width: 100%;
+      padding: 5px;
+      margin-left:20px;
+   }
+   .meni .nav-meni{
+      margin: 3px;
+      font-size: 18px;
+   } 
+   .tekst p{
+      font-size: 20px;
+      text-align: center;
+   }
+   .kartica{
+      height: 25vh;
+   }
+   .kartica .radno-mesto{
+      height: 130px;
+      padding: 0px;
+      margin: 0px 2px;
+   }
+   .opis p{
+      margin: auto;
+      font-size: 13px;
+      height: 30px;
+   }
+   #radovi h1{display: none;}
+   .naslov2{display: none;}
+   .buketi { display: none;}
+   .dekoracija img{
+      padding:2px;
+      margin: 0px 0px;
+      width: 300px;
+      height: 200px;
+      position: relative;
+      top: 20px;
+      left: 33px;
+   }
+   .bidermajer img{display: none;}
+   #dostava h1{font-size: 30px;}
+   #dostava p{font-size: 18px;}
+   .strumf img{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top: 2900px;
+   }
+   .strumfeta img{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      top: 2900px;
+      left: 250px;
+   }
+   @keyframes strumf1{
+      from{
+         left: 0px;
+      }
+      to{
+         left: 50%;
+      }
+    }
+   .kontakt-forma{
+      float: left;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+      top:100px;
+      left: 0px;
+   }
+   .ikonica{
+      width: 20px;
+      padding-left: 60px;
+   }
+   .kontakt-forma{
+      width: 290px;
+      height: 500px;
+      left: 32px;
+   }
+   .polja p{
+      font-size: 18px;
+   }
+   .polja input{
+      width: 100px;
+      height: 10px;
+   }
+   .polja textarea{
+      width: 140px;
+      height: 70px;
+   }
+   .forma .polja{
+      height: 50px;
+      padding: 0px;
+   }
+   .dugme{
+      font-size: 10px;
+      position: relative;
+      top: 35px;
+      right: 13px;
+   }
+   .f-desno h1{
+      font-size: 20px;
+   }
+   footer{display: none;} 
+}
+@media screen and (min-width:760px) and (max-width:1024px){
+   body{background-color: white;}
+   .navbar{
+      display: inline;
+      border: 2px solid transparent;
+      padding: 0px 0px;
+   }
+   .navbar .logo{
+      width: 500px;
+      margin-left: 140px;
+   }
+   .navbar .nav-meni a{
+      font-size: 30px;
+      display: block;
+      padding: 0px;
+      margin: 0px;
+      margin-left: 10px;
+   }
+   .tekst p{
+      font-size: 30px;
+      text-align: center;
+   }
+   .kartica{
+      justify-content: unset;
+      margin-bottom: -120px;
+      margin-left: 31px;
+   }
+   .radno-mesto{margin: 0px;}
+   .radno-mesto img{
+      width: 300px;
+      height: 400px;
+   }
+   #radovi {
+      text-align: center; 
+      margin-left: 200px;
+   }
+  .naslov2 {display: none;}
+  .dekoracija{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+   }
+  .buketi img, .bidermajer img{display: none;}
+  .dekoracija img{
+      width: 100%; 
+   } 
+   #dostava{
+      text-align: center;
+      margin-left: 175px;
+   }
+   .strumfeta{
+      position: relative;
+      top: 9px;
+      left: 95px;
+   }
+   #kontakt{text-align: center;}
+   .kontakt-forma{
+      padding: 10px;
+   }
+   footer{
+      width: 126%;
+   }
+   .tekst-footer p{
+      padding: 3px;
+      font-size: 24px;
+   }
+   .ikonice-footer{
+      font-size: 32px;
+   }
+}
+
+
+
+ 
+ 
